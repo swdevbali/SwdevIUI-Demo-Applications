@@ -10,7 +10,7 @@ Public Class HomePage
             Timer1.Enabled = True
             linkStartStop.Text = "Stop"
         Else
-            Timer1.Enabled = True
+            Timer1.Enabled = False
             linkStartStop.Text = "Start"
         End If
         
@@ -40,5 +40,9 @@ Public Class HomePage
     Private Sub linkReset_LinkClicked(ByVal sender As System.Object, ByVal e As System.Windows.Forms.LinkLabelLinkClickedEventArgs)
         startTime = Now
         Timer1_Tick(Nothing, Nothing)
+    End Sub
+
+    Private Sub linkAbout_LinkClicked(ByVal sender As System.Object, ByVal e As System.Windows.Forms.LinkLabelLinkClickedEventArgs) Handles linkAbout.LinkClicked
+        MainWindow.enterView(Pages.Item("about"))
     End Sub
 End Class

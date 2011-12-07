@@ -85,6 +85,12 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Config.vb" />
+    <Compile Include="Pages\AboutSenzalaPage.Designer.vb">
+      <DependentUpon>AboutSenzalaPage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\AboutSenzalaPage.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="Pages\HomePage.Designer.vb">
       <DependentUpon>HomePage.vb</DependentUpon>
     </Compile>
@@ -119,6 +125,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Dialog\AboutBox.resx">
       <DependentUpon>AboutBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\AboutSenzalaPage.resx">
+      <DependentUpon>AboutSenzalaPage.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\HomePage.resx">
       <DependentUpon>HomePage.vb</DependentUpon>
@@ -172,6 +181,9 @@
     <None Include="Resources\eko.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\upsidedownkick.gif" />
+    <None Include="Resources\shodique_luqman.jpg" />
+    <None Include="Resources\logosenzalaindonesia.jpg" />
     <Content Include="upsidedownkick.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />

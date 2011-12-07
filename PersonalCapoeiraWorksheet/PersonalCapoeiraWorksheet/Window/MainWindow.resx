@@ -121,7 +121,7 @@
   <data name="Panel1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAN4AAABxCAIAAAA1T4rbAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAA8mSURBVHhe7V3bsdW6EjwpkAIpkAIpkAIpkAIpkAIpkAIp
+        YQUAAAAJcEhZcwAADr8AAA6/ATgFUyQAAA8mSURBVHhe7V3bsdW6EjwpkAIpkAIpkAIpkAIpkAIpkAIp
         kMJNgdN1uqpvV48kez3wMtvjD8qsLcujnva8JNn//NNHI9AINAKNQCPQCDQCjUAj0Ag0Ao1AI9AINAKN
         QCPQCCwQePfuXePTCJwLASclz5um59JQS+MINDubD6dA4MePHz9//vzw4cMppGkhGgEh8Pv37//9d7x/
         /74dehPjRAjAZIKdOHDSrvxEimlRPn/+TGri+PLlSwPSCJwIARlOsLODzhMppkX5+PGjDOevX78akEbg
@@ -191,41 +191,101 @@
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        AAABAAEAGRkAAAEAGAD4BwAAFgAAACgAAAAZAAAAMgAAAAEAGAAAAAAAAAAAAEgAAABIAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAgIAAAAODg4PDw8AAAAAAAAAAAAMDAwQEBAAAAACAgIAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwsLAAAAAAAAGBgYGxsbGhoa
-        AAAAAAAACgoKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsLCwAA
-        AElJSUJCQgAAAAAAAAAAADIyMlJSUgAAAAkJCQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAcHBwAAACvr6/////JycmdnZ2/v7/7+/vOz88AAAAaGhoAAAABAQEAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAQEBAAAAAAAAFhYWAAAAfn5+////////////////////oKGgAAAAFxcX
-        AAAAAAAAAQEBAAAAAAAAAAAAAAAAAAEBAQAAAAcHBwwMDAAAAAAAAAEBAQAAABQUFAAAAHFxcfDw8P//
-        //f3942NjQAAABEREQICAgEBAQEBAQAAAAsLCwkJCQAAAAICAgAAAAAHBwcAAAAAAAAZGRkYGBgMDAwA
-        AAAAAAAiIiIAAACoqKj////CwsIAAAAeHh4AAAAAAAAKCgoXFxcbGxsAAAAAAAAICAgAAAAABgYGAAAA
-        IiIiMzMzAAAAAAAAAAAAGRkZGRkZHh4eAAAAq6ur////w8PDAAAAHBwcFxcXGhoaAAAAAAAAAAAAKioq
-        LS0tAAAABwcHABAQEAAAAFJSUu7u7sfHx4aGhjQ0NAAAAAAAAAUFBQAAAKysrP///8TExAAAAA8PDwAA
-        AAAAACMjI3t7e7y8vPPz83l5eQAAABcXFwAREREAAABNTU3////////////09PTKysqJiYlAQEAAAACj
-        o6P///++vr4AAAAxMTF+fn7BwcHv7+////////////94eHgAAAAXFxcABgYGCAgIAAAAmpqa9vb2////
-        ////////////9/f3wsLC0NDQ////29vburq68vLy/////////////////Pz8ra2tHx8fAAAACQkJAAAA
-        AAYGBgQEBAAAAEFBQcfHx/////////r6+v////////////39/f////////////r7+v///////9LS0lZW
-        VgAAAAAAAAoKCgAAAAABAQEAAAACAgIcHBwAAAAAAAB4eHjn5+f////////6+vr+/v7////+/v76+vr+
-        /v7////t7e2GhoYAAAAAAAAdHR0ICAgAAAACAgIAAAAAAAAAAgICAAAAEBAQGhoaAAAAAAAAqKio/Pz8
-        /////v7+/////v7+////////sLCwGxsbAAAAFxcXFBQUAAAAAgICAAAAAAAAAAAAAAAAAAAAAAEBAQAA
-        AAAAABkZGQAAAAAAAE5OTtDQ0P////7+/v///9TU1FdXVwAAAAAAABoaGgAAAAAAAAICAgAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAACAgIAAAAJCQkdHR0AAAAAAADExMT////Mzc0AAAAAAAAdHR0LCwsAAAAC
-        AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgICAAAAIiIiAAAAtLS0////v7+/
-        AAAAIiMiAAAAAgICAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQAA
-        ABoaGgAAALi4uP///8LCwgAAABkZGQAAAAEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAABAQEAAAAaGhoAAAC3t7f////BwsEAAAAaGhoAAAABAQEAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAAAAGhoaAAAAt7e3////wcHBAAAAGhoaAAAAAQEB
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQAAABoaGgAAALi4uP//
-        /8LCwgAAABkZGQAAAAEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAbGxsAAAC1tbX///++vr4AAAAbGxsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAADw8PAAAAUVFRtbW1U1NTAAAADw8PAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0NDQAAAAAAAAAAAA0NDQAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAgIAAAAP
-        Dw8cHBwPDw8AAAACAgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAABAAEAQEAAAAEACAAoFgAAFgAAACgAAABAAAAAgAAAAAEACAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA
+        AAABAQEAAwMDAAgICAACAgIACQkJAAYGBgDm5uYADAwMAAQEBADDw8MABQUFAOnp6QChoaEABwcHANPT
+        0wAKCgoAEhISACsrKwAWFhYADw8PAOzs7ADq6uoA5eXlAICAgAC0tLQAOzs7AOfn5wBubm4AiIiIADIy
+        MgB8fHwAubm5AHZ2dgBcXFwAZmZmAIGBgQAvLy8AISEhAC0tLQC+vr4AEBAQAA4ODgAZGRkAuLi4AA0N
+        DQBlZWUACwsLAKOjowBVVVUAHBwcAKmpqQCkpKQAlJSUAOLi4gDa2toAjo6OAODg4ABAQEAAQkJCAHFx
+        cQBwcHAAUlJSABQUFAAfHx8AvLy8AMrKygBvb28AhYWFAFZWVgCvr68AmpqaAMbGxgDo6OgAPj4+AJ6e
+        ngAiIiIA2dnZAKWlpQCrq6sAYWFhADExMQCqqqoAxcXFAMHBwQCVlZUAERERABUVFQAXFxcAqKioAIqK
+        igDY2NgA29vbAKCgoAB9fX0A1NTUADY2NgCsrKwAUFBQAF9fXwDX19cARkZGAImJiQDe3t4APz8/AJ+f
+        nwCdnZ0Ag4ODAMDAwAA3NzcAKioqADAwMADW1tYAxMTEAHh4eADIyMgAdHR0AIuLiwCbm5sARUVFAEdH
+        RwCEhIQAT09PAH5+fgATExMA7u7uAHJycgDJyckAUVFRANzc3ACCgoIAJCQkAJiYmADr6+sAe3t7AJyc
+        nACHh4cAXl5eACMjIwBZWVkAurq6AKampgBMTEwALCwsAC4uLgBYWFgAWlpaAHV1dQAaGhoAY2NjAJKS
+        kgBISEgASkpKALu7uwAoKCgAbGxsAGJiYgA4ODgA4eHhAGdnZwAdHR0A7e3tALOzswBNTU0AJiYmAHd3
+        dwCZmZkAjIyMAOPj4wDCwsIAzc3NAAAAAAD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urOE6BmoUMBqurq6urq6urq6urq6ur
+        q6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urRC6qCjAcURSrq6urq6urq6ur
+        q6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urGlaqQ0irq6urq6urq6ur
+        q6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq4Oqqmurq6urq6ur
+        q6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6tPqgFTq6ur
+        q6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urbKoB
+        Uqurq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6ur
+        qz+qAVKrq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6ur
+        q6urq3wQqgFHq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6ur
+        q6urq6urq6tILKoBR6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6ur
+        q6urq6urq6urq6urBiyqAJirq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6ur
+        q6urq6urq6urq6urq6urqzYEqqpKq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6ur
+        q6urq6urq6urq6urq6urq6urq6tyCKqqNKurq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6ur
+        q6urq6urq6urq6urq6urq6urq6urq6uroaqqqiOrq6urq6urq6urq6urq6urq6urq6urq6urq6urq6ur
+        q6urq6urq6urq6urq6urq6urq6urq6urq6urqzeqqqoXq6urq6urq6urq6urq6urq6urq6urq6urq6ur
+        q6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6uIqqqqI6urq6urq6urq6urq6urq6urq6urq6ur
+        q6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6uEPqqqqh6rq6urq6urq6urq6urq6urq6ur
+        q6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urBg+qqqqWq6urq6urq6urq6urq6ur
+        q6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6uOqqqqLjarq6urq6urq6ur
+        q6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urm6qqqqpNq6urq6ur
+        q6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urqyCqqqqqaKur
+        q6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urqxxVqqqq
+        qiurq6sJGE5Bq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6Sq
+        qqqqAAA3q6tiA6qqCBJ0q6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6ur
+        KxGqqqqqqgMKA2Q5CqqqqqqqqiKrq6urq6urq6urq6urq6urq6urq6urHyYhFqurq6urq6urq6urq6ur
+        q6urRgOqqqqqqqoACKqqqqqqqqqqqqoHBqurq6urq6urq6urq6urq6urq6urq2UFqpMnq6urq6urq6ur
+        q6urq6urIACqqqqqqqqqAAGqqqqqqqqqqqqqBDWrq6urq6urq6urq6urq6urq6urq6urpzIdKn6rq6ur
+        q6urq6urq6sLRKqqqqqqqqqqqgABqqqqqqqqqqqqqo+rq6urq6urq6urq6urq6urq6urq6urq6urq1QC
+        Uaurq6urq6urq6saEaqqqqqqqqqqqqoACqqqqqqqqqqqqqovq6urq6urq6urq6urq6urq6urq6urq6ur
+        q6urDCVYq6urq6urq6urHqqqqqqqqqqqqqqqqg8EAKo6PSUSe1c7q6urq6urq6urq6urq6urq6urq6ur
+        q6urq6urq6tFEyerq6urq6urCyqqqqqqqqqqqqqqqqoAKAKqiqurq6urq6urq6urq6urq6urq6urq6ur
+        q6urq6urq6urq6urq0EZjKurq6urqy2qqqqqqqoAAKqqqqqqqgIPqiOrq6urq6urq6urq6urq6urq6ur
+        q6urq6urq6urq6urq6urq6urCZmoq6urqwsQqqqqqqoAAKqqqqqqqqqqAKo5q6urq6urq6urq6urq6ur
+        q6urq6urq6urq6urq6urq6urq6urq6sOJECrq6s0qqqqqqqqAKqqqqqqqqqqqqqqV6urq6urq6urq6ur
+        q6urq6urq6urq6urq6urq6urq6urq6urq6urq2CJnjwxVqqqqqqqqqqqqqoDEygEqqqqqherq6urq6ur
+        q6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urDnF/qqqqqqqqqqqqqqqqXKurGaqqqioUq6ur
+        q6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urfaqqqqqqqqqqqqoFSRhAMwKqqjEn
+        q6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urnVWqqqqqqqqqqqqqLigAqqqq
+        qqowq6urq6sVCQxqF1Rmq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq0Kqqqqqqqqqqqqqqqqq
+        qqqqqqqqBVAiknZLKQOqqqqqUKurq6urq6urq6urq6urq6urq6urq6urq6urq6urq6sRqqqqqqqqqqqq
+        qqqqqqqqqqqqqqqqqqqqqqqqqqqqqilMq6urq6urq6urq6urq6urq6urq6urq6urq6urq6teCqqqqqqq
+        qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqosb6urq6urqxg/G6urq6urq6urq6urq6urq6urq6urdaqq
+        qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqAI2HpaZ6lGeqqk2rq6urq6urq6urq6urq6urq6ur
+        q0mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqgourq6urq6urq6urq6urq6ur
+        q6urq2MIqqqqqqqqX0J5HT4pBA0NBBMkkB54TweqqqqqqqqqqqqqqqqqqqoSPDirq6urq6urq6urq6ur
+        q6urq6urq6tGqqqqqqqqnwarq6urFUwODlugq6urq6sfITqiSyAbERMHdys7qqoFcKurq6urq6urq6ur
+        q6urq6urq6urq6urLaqqqqqqqoarq6urq6urq6urq6urq6urq6urq6urq6urFqurq5EQMqurq6urq6ur
+        q6urq6urq6urq6urq6urqyaqqqqqqiKrq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urNaurq6ur
+        q6urq6urq6urq6urq6urq6urq1oFqqqqqpyrq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6ur
+        q6urq6urq6urq6urq6urq6urq6urq6svqqqqqg8Jq6urq6urq6urq6urq6urq6urq6urq6urq6urq6ur
+        q6urq6urq6urq6urq6urq6urq6urq6urq6urJqqqqqppq6urq6urq6urq6urq6urq6urq6urq6urq6ur
+        q6urq6urq6urq6urq6urq6urq6urq6urq6urq6urWaqqqqoHC6urq6urq6urq6urq6urq6urq6urq6ur
+        q6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urFBKqqqqqHaurq6urq6urq6urq6urq6urq6ur
+        q6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq3OqqqqqDUOrq6urq6urq6urq6urq6ur
+        q6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urqx+qqqqqqhyrq6urq6urq6urq6ur
+        q6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6uXqqqqqgKpq6urq6urq6ur
+        q6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6szqqqqqqotq6urq6ur
+        q6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6saEKqqqqoZq6ur
+        q6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq2GqqqoI
+        Raurq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6ur
+        U26qJaurq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6ur
+        q6urqwskqm2rq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6ur
+        q6urq6urq6s9qgcJq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6ur
+        q6urq6urq6urq6tKAaohq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6ur
+        q6urq6urq6urq6urq6uro6qqDKurq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6ur
+        q6urq6urq6urq6urq6urq6urgA2qAharq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6ur
+        q6urq6urq6urq6urq6urq6urq6urqxUFqhurq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6ur
+        q6urq6urq6urq6urq6urq6urq6urq6urq6urXZWrq6urq6urq6urq6urq6urq6urq6urq6urq6urq6ur
+        q6urq6urq6urq6urq6urq6urq6urqwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 </value>
   </data>
 </root>

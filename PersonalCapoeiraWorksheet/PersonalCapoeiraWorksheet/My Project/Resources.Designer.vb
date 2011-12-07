@@ -95,6 +95,13 @@ Namespace My.Resources
             End Get
         End Property
         
+        Friend ReadOnly Property logosenzalaindonesia() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("logosenzalaindonesia", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
         Friend ReadOnly Property right_arrow() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("right_arrow", resourceCulture)
@@ -105,6 +112,20 @@ Namespace My.Resources
         Friend ReadOnly Property senzala() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("senzala", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        Friend ReadOnly Property shodique_luqman() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("shodique_luqman", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        Friend ReadOnly Property upsidedownkick() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("upsidedownkick", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

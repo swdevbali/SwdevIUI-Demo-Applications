@@ -29,6 +29,7 @@ Partial Class HomePage
         Me.linkStartStop = New System.Windows.Forms.LinkLabel()
         Me.linkPause = New System.Windows.Forms.LinkLabel()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.linkAbout = New System.Windows.Forms.LinkLabel()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -45,7 +46,7 @@ Partial Class HomePage
         Me.lblClock.ForeColorBlend = CBlendItems1
         Me.lblClock.Glow = 12
         Me.lblClock.GlowColor = System.Drawing.Color.Red
-        Me.lblClock.Location = New System.Drawing.Point(101, 348)
+        Me.lblClock.Location = New System.Drawing.Point(96, 422)
         Me.lblClock.MouseOver = False
         Me.lblClock.MouseOverColor = System.Drawing.Color.Gray
         Me.lblClock.Name = "lblClock"
@@ -64,7 +65,7 @@ Partial Class HomePage
         'linkStartStop
         '
         Me.linkStartStop.AutoSize = True
-        Me.linkStartStop.Location = New System.Drawing.Point(6, 11)
+        Me.linkStartStop.Location = New System.Drawing.Point(22, 3)
         Me.linkStartStop.Name = "linkStartStop"
         Me.linkStartStop.Size = New System.Drawing.Size(29, 13)
         Me.linkStartStop.TabIndex = 30
@@ -74,7 +75,7 @@ Partial Class HomePage
         'linkPause
         '
         Me.linkPause.AutoSize = True
-        Me.linkPause.Location = New System.Drawing.Point(6, 37)
+        Me.linkPause.Location = New System.Drawing.Point(22, 29)
         Me.linkPause.Name = "linkPause"
         Me.linkPause.Size = New System.Drawing.Size(37, 13)
         Me.linkPause.TabIndex = 31
@@ -83,26 +84,37 @@ Partial Class HomePage
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = Global.PersonalCapoeiraWorksheet.My.Resources.Resources.eko
+        Me.PictureBox1.Image = Global.PersonalCapoeiraWorksheet.My.Resources.Resources.shodique_luqman
         Me.PictureBox1.Location = New System.Drawing.Point(98, 3)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(390, 333)
+        Me.PictureBox1.Size = New System.Drawing.Size(604, 402)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
         Me.PictureBox1.TabIndex = 32
         Me.PictureBox1.TabStop = False
+        '
+        'linkAbout
+        '
+        Me.linkAbout.AutoSize = True
+        Me.linkAbout.Location = New System.Drawing.Point(22, 52)
+        Me.linkAbout.Name = "linkAbout"
+        Me.linkAbout.Size = New System.Drawing.Size(55, 13)
+        Me.linkAbout.TabIndex = 33
+        Me.linkAbout.TabStop = True
+        Me.linkAbout.Text = "About us.."
         '
         'HomePage
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.Controls.Add(Me.linkAbout)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.lblClock)
         Me.Controls.Add(Me.linkPause)
         Me.Controls.Add(Me.linkStartStop)
         Me.ImageTitle = Global.PersonalCapoeiraWorksheet.My.Resources.Resources.home
         Me.Name = "HomePage"
-        Me.Size = New System.Drawing.Size(528, 463)
-        Me.Title = "Salve!"
+        Me.Size = New System.Drawing.Size(741, 530)
+        Me.Title = "Train!"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -113,5 +125,6 @@ Partial Class HomePage
     Friend WithEvents linkStartStop As System.Windows.Forms.LinkLabel
     Friend WithEvents linkPause As System.Windows.Forms.LinkLabel
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
+    Friend WithEvents linkAbout As System.Windows.Forms.LinkLabel
 
 End Class

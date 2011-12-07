@@ -40,13 +40,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_F42590B0593D41389F2348851DACD465"
+        "OwnerKey" = "8:_E522C22A3969C4CF75CD8C1BC7169559"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_E522C22A3969C4CF75CD8C1BC7169559"
+        "OwnerKey" = "8:_F42590B0593D41389F2348851DACD465"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -111,6 +111,19 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.0,Profile=Client"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4 Client Profile (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.0,Profile=Client"
+                    }
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
+                    {
+                    "Name" = "8:Windows Installer 3.1"
+                    "ProductCode" = "8:Microsoft.Windows.Installer.3.1"
+                    }
+                }
             }
         }
     }
@@ -148,11 +161,6 @@
             "AssemblyAsmDisplayName" = "8:gLabel, Version=1.0.4323.33073, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_72C86E08A3E95020AB3CE5AAF2C2943F"
-                    {
-                    "Name" = "8:gLabel.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:gLabel.dll"
             "TargetName" = "8:"
@@ -179,11 +187,6 @@
             "AssemblyAsmDisplayName" = "8:SwdevIUI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_E522C22A3969C4CF75CD8C1BC7169559"
-                    {
-                    "Name" = "8:SwdevIUI.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:SwdevIUI.dll"
             "TargetName" = "8:"
@@ -276,7 +279,7 @@
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
-        "DetectNewerInstalledVersion" = "11:TRUE"
+        "DetectNewerInstalledVersion" = "11:FALSE"
         "InstallAllUsers" = "11:FALSE"
         "ProductVersion" = "8:1.0.0"
         "Manufacturer" = "8:Capoeira Senzala YogyakartaCapoeira Senzala Yogyakarta"

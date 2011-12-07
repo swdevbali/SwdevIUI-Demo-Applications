@@ -52,7 +52,7 @@ Partial Class MainWindow
         Me.pnlUtama.Location = New System.Drawing.Point(12, 153)
         Me.pnlUtama.Margin = New System.Windows.Forms.Padding(15)
         Me.pnlUtama.Name = "pnlUtama"
-        Me.pnlUtama.Size = New System.Drawing.Size(1095, 448)
+        Me.pnlUtama.Size = New System.Drawing.Size(1178, 515)
         Me.pnlUtama.TabIndex = 25
         '
         'breadCumb
@@ -62,7 +62,7 @@ Partial Class MainWindow
         Me.breadCumb.BackColor = System.Drawing.Color.Transparent
         Me.breadCumb.Location = New System.Drawing.Point(12, 120)
         Me.breadCumb.Name = "breadCumb"
-        Me.breadCumb.Size = New System.Drawing.Size(1094, 28)
+        Me.breadCumb.Size = New System.Drawing.Size(1177, 28)
         Me.breadCumb.TabIndex = 26
         '
         'Panel1
@@ -82,7 +82,7 @@ Partial Class MainWindow
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1119, 114)
+        Me.Panel1.Size = New System.Drawing.Size(1202, 114)
         Me.Panel1.TabIndex = 22
         '
         'btnMinimize
@@ -95,7 +95,7 @@ Partial Class MainWindow
         Me.btnMinimize.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ActiveCaption
         Me.btnMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnMinimize.ForeColor = System.Drawing.Color.White
-        Me.btnMinimize.Location = New System.Drawing.Point(931, 11)
+        Me.btnMinimize.Location = New System.Drawing.Point(1014, 11)
         Me.btnMinimize.Name = "btnMinimize"
         Me.btnMinimize.Size = New System.Drawing.Size(57, 32)
         Me.btnMinimize.TabIndex = 31
@@ -113,7 +113,7 @@ Partial Class MainWindow
         Me.btnClose.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ActiveCaption
         Me.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnClose.ForeColor = System.Drawing.Color.White
-        Me.btnClose.Location = New System.Drawing.Point(1057, 11)
+        Me.btnClose.Location = New System.Drawing.Point(1140, 11)
         Me.btnClose.Name = "btnClose"
         Me.btnClose.Size = New System.Drawing.Size(57, 32)
         Me.btnClose.TabIndex = 30
@@ -131,11 +131,11 @@ Partial Class MainWindow
         Me.btnMaximize.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ActiveCaption
         Me.btnMaximize.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnMaximize.ForeColor = System.Drawing.Color.White
-        Me.btnMaximize.Location = New System.Drawing.Point(994, 11)
+        Me.btnMaximize.Location = New System.Drawing.Point(1077, 11)
         Me.btnMaximize.Name = "btnMaximize"
         Me.btnMaximize.Size = New System.Drawing.Size(57, 32)
         Me.btnMaximize.TabIndex = 29
-        Me.btnMaximize.Text = "Max"
+        Me.btnMaximize.Text = "Restore"
         Me.btnMaximize.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         Me.btnMaximize.UseVisualStyleBackColor = False
         '
@@ -170,7 +170,7 @@ Partial Class MainWindow
         Me.linkMax.AutoSize = True
         Me.linkMax.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.linkMax.LinkColor = System.Drawing.Color.White
-        Me.linkMax.Location = New System.Drawing.Point(1073, 17)
+        Me.linkMax.Location = New System.Drawing.Point(1156, 17)
         Me.linkMax.Name = "linkMax"
         Me.linkMax.Size = New System.Drawing.Size(16, 13)
         Me.linkMax.TabIndex = 27
@@ -183,7 +183,7 @@ Partial Class MainWindow
         Me.linkClose.AutoSize = True
         Me.linkClose.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.linkClose.LinkColor = System.Drawing.Color.White
-        Me.linkClose.Location = New System.Drawing.Point(1095, 17)
+        Me.linkClose.Location = New System.Drawing.Point(1178, 17)
         Me.linkClose.Name = "linkClose"
         Me.linkClose.Size = New System.Drawing.Size(12, 13)
         Me.linkClose.TabIndex = 26
@@ -242,19 +242,19 @@ Partial Class MainWindow
         '
         Me.linkLatestNews.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.linkLatestNews.AutoSize = True
-        Me.linkLatestNews.Location = New System.Drawing.Point(12, 616)
+        Me.linkLatestNews.Location = New System.Drawing.Point(12, 683)
         Me.linkLatestNews.Name = "linkLatestNews"
-        Me.linkLatestNews.Size = New System.Drawing.Size(209, 13)
+        Me.linkLatestNews.Size = New System.Drawing.Size(242, 13)
         Me.linkLatestNews.TabIndex = 27
         Me.linkLatestNews.TabStop = True
-        Me.linkLatestNews.Text = "Latest Capoeira Senzala Yogyakarta News"
+        Me.linkLatestNews.Text = "Facebook Group of Capoeira Senzala Yogyakarta"
         '
         'MainWindow
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(1119, 640)
+        Me.ClientSize = New System.Drawing.Size(1202, 707)
         Me.Controls.Add(Me.linkLatestNews)
         Me.Controls.Add(Me.breadCumb)
         Me.Controls.Add(Me.pnlUtama)
@@ -263,6 +263,7 @@ Partial Class MainWindow
         Me.Name = "MainWindow"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "<< TITLE >>"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         Me.ResumeLayout(False)

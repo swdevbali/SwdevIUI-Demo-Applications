@@ -489,6 +489,6 @@ Public Class MainWindow
 
     Private Sub linkLatestNews_LinkClicked(ByVal sender As System.Object, ByVal e As System.Windows.Forms.LinkLabelLinkClickedEventArgs) Handles linkLatestNews.LinkClicked
         'borrowed from http://www.mredkj.com/vbnet/OpenURL.html
-        System.Diagnostics.Process.Start("http://jnewsjogja.blogspot.com/2011/09/capoeira-senzala-meriahkan-yogya.html")
+        System.Diagnostics.Process.Start("https://www.facebook.com/groups/capoeirasenzalayogyakarta/")
     End Sub
 End Class

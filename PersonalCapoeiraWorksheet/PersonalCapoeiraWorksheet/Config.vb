@@ -7,6 +7,7 @@ Public Class Config
     Public Shared Sub init()
         Pages.m_pageFactoryHash.Add(AssemblyName(), New PersonalCapoeiraWorksheetPageFactory)
         Pages.add("home", AssemblyName() & ".HomePage")
+        Pages.add("about", AssemblyName() & ".AboutSenzalaPage")
         defaultHome = Pages.Item("home") 'homepage before login
         MainWindow.Text = Application.ProductName & " version " & Application.ProductVersion
     End Sub
